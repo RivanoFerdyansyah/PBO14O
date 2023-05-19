@@ -7,6 +7,41 @@
  *
  * @author USER
  */
-public class DetailTransaksi extends Transaksi {
+public class DetailTransaksi {
+    
+    private String nofaktur,kdproduk, jml, total;
+    
+    public DetailTransaksi (){}
+    
+    public void setNofaktur(String nofaktur){
+        this.nofaktur=nofaktur;
+    }
+    
+    public String getNoFaktur(){
+        return this.nofaktur;
+    }
+    
+    public void setKdProduk(String kdproduk){
+        this.kdproduk=kdproduk;
+    }
+    
+    public String getProduk(){
+        return this.kdproduk;
+    }
+    
+    public void setJml(String jml){
+        this.jml=jml;
+    }
+    
+    public String getJml(){
+        return this.jml;
+    }
+    public void setTotal(String total){
+        this.total=total;
+    }
+    
+    public String getTotal(){
+        return this.total;
+    }
     
 }
