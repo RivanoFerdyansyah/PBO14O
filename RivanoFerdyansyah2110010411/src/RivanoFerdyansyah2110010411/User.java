@@ -12,11 +12,11 @@ public class User {
     
     public User (){}
     
-    public void setIdUser(String id){
+    public void setKdUser(String id){
         this.id=id;
     }
     
-    public String getIdUser(){
+    public String getKdUser(){
         return this.id;
     }
     
@@ -34,7 +34,7 @@ public class User {
     
     public String getPass(){
         return this.pass;
-}
+    }
     public void setLevel(String level){
         this.level=level;
     }
