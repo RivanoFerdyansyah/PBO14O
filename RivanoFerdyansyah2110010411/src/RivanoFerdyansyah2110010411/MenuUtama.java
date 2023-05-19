@@ -16,12 +16,11 @@ public class MenuUtama {
         // TODO code application logic here
         
         User obj = new User();
-        obj.setIdUser("411");
+        obj.setKdUser("411");
         obj.setUser("Rivano");
         obj.setPass("12345");
         obj.setLevel("Admin");
-        
-        System.out.println("\n ID User : "+obj.getIdUser() +
+        System.out.println("\n ID User : "+obj.getKdUser() +
                 "\n User : "+obj.getUser() +
                 "\n Password : "+obj.getPass() + 
                 "\n Level : " +obj.getLevel());
