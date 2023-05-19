@@ -7,18 +7,21 @@
  *
  * @author USER
  */
-public class Akun extends Jurnal {
+public class Akun{
     private String id,akun;
-    private int kdakun;
     
-public Akun(){}
-
-    public void setIdAkun(String id){
+    public void setKdAkun(String id){
         this.id=id;
+    }
+    public String getKdAkun(){
+        return this.id;
     }
     
     public void setAkun(String akun){
         this.akun=akun;
+    }
+    public String getAkun(){
+        return this.akun;
     }
     
     
